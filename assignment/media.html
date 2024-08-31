@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="./styles/mediastyle.css">
+</head>
+<body>
+    <header id="Top" style="background-color: rgb(6, 89, 116); text-align: center; width: auto; margin: auto; padding: 15px; border-radius: 5px; margin-bottom: 10px;">
+        <nav>
+                <a href="index.html" style="text-align: center; color: #fff; text-decoration: none; margin: 0 15px; padding: 18px;">
+                    About Me
+                </a>
+                <a href="form.html" style="text-align: center; color: #fff; text-decoration: none; margin: 0 15px; padding: 18px;">
+                    Form
+                </a>
+                <a href="table.html" style="text-align: center; color: #fff; text-decoration: none; margin: 0 15px; padding: 18px;">
+                    Table
+                </a>
+                <a href="media.html" style="text-align: center; color: #fff; text-decoration: none; margin: 0 15px; padding: 18px;">
+                    Media
+                </a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <!-- Responsive Picture Element -->
+        <picture>
+            <!-- Image for mobile devices -->
+            <source srcset="./images/EMV_1905.jpg" media="(max-width: 600px)">
+            <!-- Image for tablets -->
+            <source srcset="./images/EMV_1905.jpg" media="(max-width: 1024px)">
+            <!-- Default image for larger screens -->
+            <source srcset="./images/EMV_1905.jpg" width=auto height="300">
+            <!-- Fallback image -->
+            <img src="./images/EMV_1905.jpg" alt="A picture of me" width="auto" height="300">
+        </picture>
+        <p> Always full of positivity, energy, and a passion for life.</p>
+    </section>
+
+    <section>
+        <h2>Inspirations</h2>
+        <!-- Video Element -->
+        <video controls width="100%">
+            <source src="./media/KEEP GOING - Motivational Speech.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Words that keep me up and running</p>
+    </section>
+
+    <section>
+        <h2>You vs You</h2>
+        <!-- Audio Element -->
+        <audio controls>
+            <source src="./media/YOU VS YOU __ Best Self Discipline Motivational Speech.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Words that motivates me</p>
+    </section>
+
+    <footer style="text-align: center; background-color: rgb(137, 157, 200); width: auto; margin: auto; border-radius: 5px;">
+        <p>&copy; ademayokundaini 2024</p>
+        <p>Alt School</p>
+        <a href="#top" class="scroll-top">Scroll to Top</a>
+    </footer>
+</body>
+</html>

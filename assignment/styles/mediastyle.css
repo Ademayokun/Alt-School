@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Body Styling */
+body {
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #295a8f;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+p {
+    margin-top: 10px;
+}
+
+/* Responsive Media Elements */
+picture img, video, audio {
+    width: 100%;
+    max-width: 300px;
+    height: auto ;
+    display: block;
+    margin: 25px 0;
+    justify-content: center;
+    border-color: #333;
+    border-radius: 5px;
+    border: 3px solid;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
